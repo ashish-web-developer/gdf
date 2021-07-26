@@ -1,0 +1,16 @@
+{
+  "name": "gdfskills",
+  "version": "1.0.0",
+  "description": "This is the gdf skills website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i src/tailwind.css -o public/style.css"
+  },
+  "author": "Ashish Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "confetti-js": "^0.0.18",
+    "tailwindcss": "^2.2.6"
+  }
+}
