@@ -15,6 +15,57 @@
         =====================
     -->
     <canvas  class = "absolute z-20" id = "my-canvas"></canvas>
+
+    <!--
+        =================
+        pop up start here
+        =================
+    -->
+
+    <div id = "pop-up" class = "hidden absolute z-30 bg-white shadow-2xl absolute left-1/2 top-20 transform -translate-x-1/2 w-4/5 h-4/5 rounded-xl overflow-hidden">
+        <div class = "w-full h-full relative">
+            <img class = "absolute top-0 left-0"src = "./images/Vector 1.png">
+            <button id = "pop-up-button" class = "absolute top-2 right-6 text-white font-bold text-3xl">
+                <i style = "color:#018675" class="fas fa-times"></i>
+            </button>
+            <div class = "px-16 grid grid-cols-2 absolute top-20">
+                <div class = "flex flex-col space-y-8">
+                    <div class = "flex flex-col space-y-4">
+                        <h1 style = "color:#018675" class = "text-black text-2xl font-bold">
+                            Updates
+                        </h1>
+                        <p class = "text-gray-600 text-sm">
+                            <span class = "text-black font-bold">1.</span>  Online class start. See your schedule at schedule option 
+                            and also find  your Student Id and Password. For updates Call:
+                        </p>
+                        <p class = "text-gray-600 text-sm">
+                            <span class = "text-black font-bold">2.</span>  Online class start. See your schedule at schedule option 
+                            and also find  your Student Id and Password. For updates Call:
+                        </p>
+                    </div>
+
+                    <div class = "flex flex-col space-y-4">
+                        <h1 style = "color:#018675" class = "text-black text-2xl font-bold">
+                            Student Help Desk
+                        </h1>
+                        <p class = "text-gray-600 text-sm"><span class = "text-black font-medium">Email Id : </span>beingsocasual@gmail.com</p>
+                        <p class = "text-gray-600 text-sm"><span class = "text-black font-medium">Call : </span>+91 8851134290</p>
+                        <p class = "text-gray-600 text-sm"><span class = "text-black font-medium">Whatsapp : </span>+91 9654934011</p>
+                    </div>
+                </div>
+                <div class ="flex justify-center items-center">
+                    <img src = "./images/3892107.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        ===============
+        pop up end here
+        ===============
+    -->
+
     <div data-aos = "fade-in" style = "background:url('./images/5437842.jpg');background-size:100% 100%;" class = "h-screen relative  bg-no-repeat">
         <!--
             =========================
@@ -115,7 +166,7 @@
                                     Book Demo
                                 </button>
                                 <button style = "background-color:#f8fff7;border-color:#fb1d7e;color:#fb1d7e" class = "px-6 py-2.5 rounded-md text-xs border-2 font-medium text-white uppercase">
-                                    Book Demo
+                                    Enquiry
                                 </button>
                             </div>
                         </div>
@@ -575,21 +626,21 @@
                         <h1 class = "text-md text-gray-600">
                             Your name
                         </h1>
-                        <input class = "border-1 bg-gray-100 rounded-xl py-2 px-4" type = "text">
+                        <input class = "border-1 bg-gray-200 rounded-md py-2 px-4" type = "text">
                     </div>
 
                     <div class = "flex flex-col space-y-4">
                         <h1 class = "text-md text-gray-600">
                             Your email
                         </h1>
-                        <input class = "border-1 bg-gray-100 rounded-xl py-2 px-4" type = "text">
+                        <input class = "border-1 bg-gray-200 rounded-md py-2 px-4" type = "text">
                     </div>
 
                     <div class = "flex flex-col space-y-4">
                         <h1 class = "text-md text-gray-600">
                             Your messages
                         </h1>
-                        <textarea class = "border-1 bg-gray-100 rounded-xl py-2 px-4 h-40" type = "text">
+                        <textarea class = "border-1 bg-gray-200 rounded-md py-2 px-4 h-40" type = "text">
                         </textarea>
                     </div>
                     <button  style = "background-color:#00dfc0" class ="rounded-xl py-4 px-6 text-white">
